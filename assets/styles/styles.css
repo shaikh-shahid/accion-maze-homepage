@@ -1,0 +1,32 @@
+:root {
+  --active-font-color: #e94b54;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background: url(../images/body-clip.svg);
+  background-repeat: repeat-y;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #222222;
+  font-family: "PT Serif", sans-serif;
+}
+
+.section-content {
+  font-size: 15px;
+  color: #555555;
+}
+
+.full-view {
+  padding: 110px 0px;
+}
+
+.gray-bg {
+  background: #fafafa 0% 0% no-repeat padding-box;
+}
+
+.text-gray {
+  color: #555555;
+}

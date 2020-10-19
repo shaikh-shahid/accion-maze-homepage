@@ -1,0 +1,21 @@
+#designed-for-developers {
+  background: url(../images/developer-clip.svg),
+    linear-gradient(2deg, #ffffff 0%, #ffeac966 100%);
+  background-position: 70px bottom, center bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.action {
+  border: 2px solid #f83649;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #f83649;
+  font-size: 18px;
+  margin: 0 5px;
+  display: flex;
+  align-items: center;
+}
+
+.action i {
+  margin-right: 5px;
+}

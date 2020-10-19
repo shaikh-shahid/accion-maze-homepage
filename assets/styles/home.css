@@ -1,0 +1,15 @@
+#home {
+  height: 100vh;
+  padding-top: 200px;
+  font-family: "PT Serif", sans-serif;
+  color: #222222;
+  background: url("../images/home_bg_1.svg"),
+    linear-gradient(13deg, #ffffff 0%, #ffc1aa52 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0% 90%, 0% 100%;
+  background-size: 100vw 50vh, 100% 100px;
+}
+
+#home .title {
+  font-size: 46px;
+}

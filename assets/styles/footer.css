@@ -1,0 +1,63 @@
+#maze-footer {
+  overflow: hidden;
+  padding-bottom: 50px;
+  background-image: url(../images/footer-clip-1.svg),
+    url(../images/footer-clip-2.svg);
+  background-position: right bottom, 200px bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+#maze-footer .title {
+  color: #101c21;
+  font-size: 15px;
+}
+
+#maze-footer .content {
+  color: #777777;
+  font-size: 13px;
+}
+
+#maze-footer .content a {
+  text-decoration: none;
+  color: #777777;
+}
+
+#maze-footer .social-btn {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#maze-footer #fb {
+  background: transparent url("../images/bg-1.svg") 0% 0% no-repeat padding-box;
+}
+
+#maze-footer #in {
+  background: transparent url("../images/bg-2.svg") 0% 0% no-repeat padding-box;
+}
+
+#maze-footer #ins {
+  background: transparent url("../images/bg-3.svg") 0% 0% no-repeat padding-box;
+}
+
+#maze-footer #footer-wedge {
+  background: transparent linear-gradient(4deg, #ffffff 0%, #fff6df 100%) 0% 0%
+    no-repeat padding-box;
+  transform: rotate(-7deg);
+  width: 150%;
+  height: 400px;
+  position: absolute;
+  bottom: -150px;
+  z-index: -1;
+}
+
+#maze-footer #privacy {
+  text-decoration: underline;
+  color: #777777;
+}

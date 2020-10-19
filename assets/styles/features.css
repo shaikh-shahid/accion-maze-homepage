@@ -1,0 +1,33 @@
+#features .features-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 30px #99999933;
+  border-radius: 8px;
+  padding: 20px;
+}
+#features .title {
+  margin-bottom: 60px;
+}
+
+#features .features-card .card-image {
+  padding: 20px 100px;
+  height: 300px;
+}
+
+#features .features-card .card-image img {
+  width: 100%;
+}
+
+#features .card-title {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+
+#features .card-subtitle {
+  font-size: 15px;
+}
+
+#features .features {
+  font-size: 15px;
+  padding-bottom: 40px;
+  line-height: 27px;
+}

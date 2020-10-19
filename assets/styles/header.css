@@ -1,0 +1,60 @@
+#maze_header {
+  z-index: 1000;
+  transition: all 0.5s;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#maze_header #maze_logo {
+  width: 200px;
+}
+
+#maze_header .nav-menu,
+#maze_header .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#maze_header .nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  float: left;
+}
+
+#maze_header .nav-menu > ul > li#maze_try_now > a {
+  background: transparent linear-gradient(59deg, #f86b80 0%, #f80517 100%) 0% 0%
+    no-repeat padding-box;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 0 0 30px;
+  padding: 10px 25px;
+  width: 130px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#maze_header .nav-menu a {
+  display: block;
+  position: relative;
+  color: #555555;
+  padding: 10px 0 10px 25px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+/* Active Option */
+#maze_header .nav-menu a:hover,
+#maze_header .nav-menu .active > a,
+#maze_header .nav-menu li:hover > a {
+  color: var(--active-font-color);
+  text-decoration: none;
+}
+
+/* Scrolled header CSS */
+#maze_header.scrolled {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  /* padding: 40px 0; */
+  background: #fff;
+}

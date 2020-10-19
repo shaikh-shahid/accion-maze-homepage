@@ -1,0 +1,21 @@
+#experience {
+  /* background: transparent linear-gradient(5deg, #ffffff 0%, #ffeac9 100%) 0% 0%
+    no-repeat padding-box; */
+  background-image: url(../images/demo-clip.svg),
+    linear-gradient(5deg, #ffffff 0%, #ffeac954 100%);
+  background-position: left bottom, center bottom;
+  background-repeat: no-repeat;
+  font-size: 18px;
+}
+
+#experience #try-now {
+  background: transparent linear-gradient(59deg, #f86b80 0%, #f80517 100%) 0% 0%
+    no-repeat padding-box;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 0 0 30px;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 26px;
+  border: none;
+}
