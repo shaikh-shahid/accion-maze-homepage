@@ -31,3 +31,30 @@
   padding-bottom: 40px;
   line-height: 27px;
 }
+
+@media only screen and (max-width: 600px) {
+  #features .title {
+    margin-bottom: 10px;
+  }
+
+  #features .features-card .card-image {
+    padding: 20px 100px;
+    height: fit-content;
+  }
+
+  #features .card-title {
+    font-size: 18px;
+  }
+
+  #features .card-subtitle {
+    font-size: 14px;
+  }
+
+  #features .features {
+    font-size: 12px;
+  }
+
+  #features .features-card {
+    margin: 10px;
+  }
+}

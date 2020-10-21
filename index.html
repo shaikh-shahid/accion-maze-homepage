@@ -46,12 +46,28 @@
                     <li><a href="#features">Feature</a></li>
                     <li><a href="#experience">Demo</a></li>
                     <li><a href="#maze-footer">Contact</a></li>
-                    <li id="maze_try_now"><a href="#try-now">Try Now</a></li>
+                    <li class="maze_try_now"><a href="#try-now">Try Now</a></li>
                 </ul>
             </nav>
 
+            <button id="menu-icon" class="d-md-none" onclick="myFunction()">
+                <i class="ri-menu-fill"></i> </button>
+
+        </div>
+
+        <div id="menu-links" class="hide">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#why-maze">Why Maze</a>
+            <a href="#use-cases">Use Cases</a>
+            <a href="#features">Feature</a>
+            <a href="#experience">Demo</a>
+            <a href="#maze-footer">Contact</a>
+            <a class="maze-try-now" href="#try-now">Try Now</a>
         </div>
     </header>
+
 
     <!-- Home -->
     <section id="home" class="full-view">
@@ -71,18 +87,16 @@
     <section id="about" class="full-view gray-bg">
         <div class="container h-100">
             <div class="row h-100">
-                <div class="col align-self-center">
+                <div class="col-12 col-lg-6 align-self-center">
                     <div class="section-wrapper">
                         <p class="section-title m-0">What is</p>
                         <p class="section-title mb-4"> <b>Accion Maze</b></p>
                         <p class="section-content mb-4">
                             Maze is a decentralized application development framework to build applications that
-                            leverage
-                            blockchain and decentralized databases without worrying about the underlying technology. It
-                            is a
-                            ready-to-use architectural framework bundled with various distributed application
-                            technologies
-                            that makes it simple to build secure, fault tolerant distributed applications.
+                            leverage blockchain and decentralized databases without worrying about the underlying
+                            technology. It is a ready-to-use architectural framework bundled with various distributed
+                            application technologies that makes it simple to build secure, fault tolerant distributed
+                            applications.
                         </p>
                         <p class="section-content mb-2"><b>How Does Maze Work</b></p>
                         <p class="section-content">
@@ -93,7 +107,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-lg-6">
                     <div id="about_clip">
                     </div>
                 </div>
@@ -105,12 +119,12 @@
     <section id="why-maze" class="full-view gray-bg">
         <div class="container h-100">
             <div class="row h-100">
-                <div class="col">
+                <div class="col-12 col-lg-6">
                     <div id="why-maze-clip">
 
                     </div>
                 </div>
-                <div class="col align-self-center">
+                <div class="col-12 align-self-center col-lg-6">
                     <div class="section-wrapper">
                         <p class="section-title m-0">Why</p>
                         <p class="section-title mb-4"> <b>Maze</b></p>
@@ -223,7 +237,7 @@
     <section id="benefits" class="full-view">
         <div class="container h-100">
             <div class="row justify-content-center title">
-                <div class="col-auto text-center mb-5">
+                <div class="col-auto text-center mb-5 title-wrapper">
                     <p class="section-title m-0">Benefits</p>
                     <p class="section-title m-0"><b>of Maze Framework</b></p>
                 </div>
@@ -355,7 +369,7 @@
                     for feedback and code contributions.
                 </b>
             </p>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column flex-md-row justify-content-md-center">
                 <button class="action">
                     <i class="ri-git-branch-line"></i> Github
                 </button>
@@ -375,7 +389,7 @@
     <section id="use-cases" class="full-view">
         <div class="container h-100">
             <div class="row justify-content-center title">
-                <div class="col-md-8 text-center mb-5">
+                <div class="col-md-8 text-center mb-md-5">
                     <p class="section-title mb-4">Use <b>Cases</b></p>
                     <p class="content text-gray font-weight-bold mt-3">Maze framework can be used in various
                         applications.</p>
@@ -422,7 +436,7 @@
                             entities may require incentives and benefits from a sale, depending on various inter-entity
                             agreements and rules that are not centrally controlled or governed by any single entity.
                         </p>
-                        <p class="card-subtitle mb-4 text-gray text-center"> Maze allows such dynamic and decentralized
+                        <p class="card-subtitle mb-4 text-gray text-center">Maze allows such dynamic and decentralized
                             platforms to be developed while maintaining the
                             security and reliability of the data that is shared and transacted between them. A
                             decentralized, blockchain based platform helps provide immutability to each entity’s claims.
@@ -435,7 +449,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mt-5 mt-sm-0">
                     <div class="use-case-card">
                         <div class="card-image">
                             <img src="./assets/images/nine.svg" />
@@ -472,7 +486,7 @@
     <!-- Experience section -->
     <section id="experience" class="full-view">
         <div class="container">
-            <div class="row justify-content-center mb-3">
+            <div class="row justify-content-center mb-3 title-wrapper">
                 <div class="col-auto">
                     <p class="content font-weight-bold text-gray">
                         Ready to experience faster compute power for your application?
@@ -491,7 +505,7 @@
     <footer id="maze-footer" class="full-view position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-12 col-md-3">
                     <p class="title">
                         Contact Us
                     </p>
@@ -510,7 +524,7 @@
                         Email: blockchain@accionlabs.com
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <p class="title">
                         Menu
                     </p>
@@ -533,7 +547,7 @@
                         <a href="#blogs">Blogs</a>
                     </p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-6 col-md-3">
                     <p class="title">
                         Tutorials
                     </p>
@@ -583,6 +597,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"></script>
     <script src="./assets/js/index.js"></script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("menu-links");
+            $("#menu-links").toggleClass("hide")
+        }
+    </script>
 
 </body>
 

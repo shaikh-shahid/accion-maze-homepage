@@ -61,3 +61,21 @@
   text-decoration: underline;
   color: #777777;
 }
+
+@media only screen and (max-width: 600px) {
+  #maze-footer .title {
+    padding: 10px;
+    margin: 0;
+  }
+
+  #maze-footer .content {
+    padding: 10px;
+    margin: 0;
+  }
+
+  #privacy {
+    background: #ffffffe6;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}

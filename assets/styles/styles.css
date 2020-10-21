@@ -30,3 +30,25 @@ body {
 .text-gray {
   color: #555555;
 }
+
+@media only screen and (max-width: 600px) {
+  .full-view {
+    padding: 40px 0px;
+  }
+
+  .section-title {
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .section-content {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .title-wrapper {
+    background-color: #ffffffeb;
+    padding: 10px;
+    border-radius: 8px;
+  }
+}

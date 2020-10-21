@@ -19,3 +19,16 @@
   font-size: 26px;
   border: none;
 }
+
+@media only screen and (max-width: 600px) {
+  #experience .title-wrapper {
+    background-color: #ffffffc7;
+    border: 15px;
+    margin: 15px;
+  }
+
+  #experience #try-now {
+    margin: 0;
+    font-size: 4vw;
+  }
+}

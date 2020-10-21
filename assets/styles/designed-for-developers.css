@@ -19,3 +19,29 @@
 .action i {
   margin-right: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  #why-maze .section-wrapper {
+    margin-top: 30px;
+  }
+
+  .section-title {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  #designed-for-developers {
+    background: linear-gradient(2deg, #ffffff 0%, #ffeac966 100%);
+  }
+
+  .action {
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
