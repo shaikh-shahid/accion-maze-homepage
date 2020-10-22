@@ -87,9 +87,17 @@
     width: 100%;
     position: absolute;
     background-color: #000000ed;
-    overflow: auto;
     height: calc(100vh - 93px);
+    overflow: auto;
     z-index: 11;
+  }
+
+  #maze_header.scrolled #menu-links {
+    height: calc(100vh - 53px) !important;
+  }
+
+  #maze_header.scrolled #maze_logo {
+    width: 100px;
   }
 
   #menu-links a {
@@ -126,6 +134,14 @@
     padding-bottom: 20px;
     height: calc(100vh - 93px);
     z-index: 11;
+  }
+
+  #maze_header.scrolled #menu-links {
+    height: calc(100vh - 53px) !important;
+  }
+
+  #maze_header.scrolled #maze_logo {
+    width: 100px;
   }
 
   #menu-links a {
