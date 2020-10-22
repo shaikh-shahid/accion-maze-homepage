@@ -50,7 +50,7 @@
                 </ul>
             </nav>
 
-            <button id="menu-icon" class="d-md-none" onclick="myFunction()">
+            <button id="menu-icon" class="d-md-none">
                 <i class="ri-menu-fill"></i> </button>
 
         </div>
@@ -162,7 +162,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-12 col-md-6">
                     <div class="features-card">
                         <div class="card-image">
                             <img src="./assets/images/features_1.png" />
@@ -193,7 +193,7 @@
                 </div>
 
 
-                <div class="col-sm-6">
+                <div class="col-12 col-md-6">
                     <div class="features-card">
                         <div class="card-image">
                             <img src="./assets/images/features_2.svg" />
@@ -243,7 +243,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-12 col-lg-4">
                     <div class="benefit-card">
 
                         <div class="d-flex align-items-center">
@@ -260,7 +260,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-lg-4">
                     <div class="benefit-card">
 
                         <div class="d-flex align-items-center">
@@ -277,7 +277,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-lg-4">
                     <div class="benefit-card">
 
                         <div class="d-flex align-items-center">
@@ -294,7 +294,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-lg-4">
                     <div class="benefit-card">
 
                         <div class="d-flex align-items-center">
@@ -311,7 +311,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-lg-4">
                     <div class="benefit-card">
 
                         <div class="d-flex align-items-center">
@@ -327,7 +327,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4">
+                <div class="col-12 col-lg-4">
                     <div class="benefit-card">
 
                         <div class="d-flex align-items-center">
@@ -584,7 +584,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 pt-5 justify-content-center">
+            <div class="row mt-5 pt-5 justify-content-center" id="copyright">
                 <div class="col-auto pt-5 text-center">
                     <a id="privacy" href="#">Copyright@accionmaze2020. Privacy</a>
                 </div>
@@ -599,10 +599,21 @@
     <script src="./assets/js/index.js"></script>
 
     <script>
-        function myFunction() {
-            var x = document.getElementById("menu-links");
+        function toggleMenu() {
             $("#menu-links").toggleClass("hide")
         }
+
+        $("#maze_header").click(function (e) {
+            e.stopPropagation();
+            if (!$("#menu-links").hasClass("hide"))
+                toggleMenu();
+        });
+
+        $("#menu-icon").click(function (e) {
+            e.stopPropagation();
+            toggleMenu();
+        });
+
     </script>
 
 </body>

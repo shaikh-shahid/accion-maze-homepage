@@ -73,9 +73,29 @@
     margin: 0;
   }
 
-  #privacy {
-    background: #ffffffe6;
+  #maze-footer {
+    background-position: right 87%, 30px 87%;
+    background-size: 45% auto, 35% auto;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  #maze-footer .title {
     padding: 10px;
-    border-radius: 8px;
+    margin: 0;
+  }
+
+  #maze-footer .content {
+    padding: 5px;
+    margin: 0;
+  }
+
+  #copyright {
+    margin-top: 30px;
+  }
+
+  #maze-footer {
+    background-position: right 80%, 30px 80%;
+    background-size: 30% auto, 30% auto;
   }
 }

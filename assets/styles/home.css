@@ -19,3 +19,15 @@
     font-size: 6vw;
   }
 }
+
+@media (max-width: 800px) and (orientation: landscape) {
+  #home .title {
+    font-size: 28px;
+  }
+
+  #home {
+    padding-top: 150px;
+    background-position: 0% 90%, 0% 100%;
+    background-size: 100vw 35vh, 100% 100px;
+  }
+}

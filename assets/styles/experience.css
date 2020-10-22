@@ -23,12 +23,25 @@
 @media only screen and (max-width: 600px) {
   #experience .title-wrapper {
     background-color: #ffffffc7;
-    border: 15px;
+    border-radius: 15px;
     margin: 15px;
   }
 
   #experience #try-now {
     margin: 0;
     font-size: 4vw;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  #experience .title-wrapper {
+    background-color: #ffffffc7;
+    border-radius: 15px;
+    margin: 15px;
+  }
+
+  #experience #try-now {
+    margin: 0;
+    font-size: 19px;
   }
 }

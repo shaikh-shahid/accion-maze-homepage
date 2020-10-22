@@ -12,3 +12,9 @@
     margin-top: 30px;
   }
 }
+
+@media (max-width: 800px) and (orientation: landscape) {
+  #why-maze .section-wrapper {
+    margin-top: 40px;
+  }
+}

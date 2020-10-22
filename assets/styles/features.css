@@ -3,6 +3,7 @@
   box-shadow: 0px 10px 30px #99999933;
   border-radius: 8px;
   padding: 20px;
+  min-height: 100%;
 }
 #features .title {
   margin-bottom: 60px;
@@ -33,6 +34,33 @@
 }
 
 @media only screen and (max-width: 600px) {
+  #features .title {
+    margin-bottom: 10px;
+  }
+
+  #features .features-card .card-image {
+    padding: 20px 100px;
+    height: fit-content;
+  }
+
+  #features .card-title {
+    font-size: 18px;
+  }
+
+  #features .card-subtitle {
+    font-size: 14px;
+  }
+
+  #features .features {
+    font-size: 12px;
+  }
+
+  #features .features-card {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
   #features .title {
     margin-bottom: 10px;
   }

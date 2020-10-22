@@ -31,3 +31,13 @@
     padding: 30px;
   }
 }
+
+@media (max-width: 800px) and (orientation: landscape) {
+  .use-case-card {
+    padding: 20px;
+  }
+
+  #use-cases .use-case-card .card-image {
+    padding: 30px;
+  }
+}
