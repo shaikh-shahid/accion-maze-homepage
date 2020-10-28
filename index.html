@@ -46,7 +46,7 @@
                     <li><a href="#features">Feature</a></li>
                     <li><a href="#experience">Demo</a></li>
                     <li><a href="#maze-footer">Contact</a></li>
-                    <li class="maze_try_now"><a href="#try-now">Try Now</a></li>
+                    <li class="maze_try_now"><a href="#" onclick="openDemo()">Try Now</a></li>
                 </ul>
             </nav>
 
@@ -64,7 +64,7 @@
             <a href="#features">Feature</a>
             <a href="#experience">Demo</a>
             <a href="#maze-footer">Contact</a>
-            <a class="maze-try-now" href="#try-now">Try Now</a>
+            <a class="maze-try-now" href="#" target="_blank" onclick="openDemo()">Try Now</a>
         </div>
     </header>
 
@@ -375,14 +375,14 @@
                 </b>
             </p>
             <div class="d-flex flex-column flex-md-row justify-content-md-center">
-                <button class="action">
+                <button class="action" onclick="openGit()">
                     <i class="ri-git-branch-line"></i> Github
                 </button>
-                <button class="action">
+                <button class="action" onclick="openSlack()">
                     <i class="ri-slack-fill"></i>
                     Slack
                 </button>
-                <button class="action">
+                <button class="action" onclick="openDocs()">
                     <i class="ri-file-list-3-line"></i>
                     Documentation
                 </button>
@@ -500,7 +500,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <button id="try-now">Try Our Demo Now !</button>
+                    <button id="try-now" onclick="openDemo()">Try Our Demo Now !</button>
                 </div>
             </div>
         </div>
@@ -618,6 +618,22 @@
             e.stopPropagation();
             toggleMenu();
         });
+
+        function openDemo() {
+            window.open("https://accionmaze.io/demo/dmail");
+        }
+
+        function openGit() {
+            window.open('https://github.com/accionlabs/Maze-Framework/issues');
+        }
+
+        function openSlack() {
+            window.open('https://join.slack.com/t/newworkspace-tv66839/shared_invite/zt-ixc63zi8-4t6qAeBRTyeAVtk8PrA_Vg');
+        }
+
+        function openDocs() {
+            window.open('https://github.com/accionlabs/Maze-Framework/blob/master/README.md');
+        }
 
     </script>
 
