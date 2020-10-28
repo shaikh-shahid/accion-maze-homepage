@@ -46,7 +46,7 @@
                     <li><a href="#features">Feature</a></li>
                     <li><a href="#experience">Demo</a></li>
                     <li><a href="#maze-footer">Contact</a></li>
-                    <li class="maze_try_now"><a href="#" onclick="openDemo()">Try Now</a></li>
+                    <li class="maze_try_now"><a href="#" onclick="openMazeIO()">Try Now</a></li>
                 </ul>
             </nav>
 
@@ -64,7 +64,7 @@
             <a href="#features">Feature</a>
             <a href="#experience">Demo</a>
             <a href="#maze-footer">Contact</a>
-            <a class="maze-try-now" href="#" target="_blank" onclick="openDemo()">Try Now</a>
+            <a class="maze-try-now" href="#" target="_blank" onclick="openMazeIO()">Try Now</a>
         </div>
     </header>
 
@@ -618,6 +618,10 @@
             e.stopPropagation();
             toggleMenu();
         });
+
+        function openMazeIO() {
+            window.open("https://accionmaze.io");
+        }
 
         function openDemo() {
             window.open("https://accionmaze.io/demo/dmail");
